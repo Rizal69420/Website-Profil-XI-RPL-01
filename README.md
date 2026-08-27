@@ -1,5 +1,10 @@
 # Website Profil XI RPL
 
+## jawaban Pertanyaan LKPD
+## Jawaban Pertanyaan LKPD
+- Perbedaan: `git commit -m "update"` terlalu umum dan tidak jelas perubahannya. Sedangkan `git commit -m "Menambahkan halaman profil kelas"` memberikan penjelasan yang spesifik mengenai fitur yang dikerjakan.
+- Yang lebih baik: `git commit -m "Menambahkan halaman profil kelas"` jauh lebih baik karena memudahkan tim melacak riwayat perubahan kode.
+
 
 pertanyan analisis
 mengapa setiap developer tidak langsung bekerja pada main?
