@@ -1,9 +1,8 @@
-# Website Profil XI RPL
+## Anggota Tim
 
 Website ini merupakan proyek pembelajaran
 kolaborasi Git dan GitHub.
 
-## Anggota Tim
 
 1. Rizal - Project Manager
 2. Neng Dina - Developer Profil
@@ -95,8 +94,6 @@ kolaborasi Git dan GitHub.
 ---
 
 **TROUBLESHOOTING LOG (SECTION Z)**
-
-Berikut adalah draf teks untuk **Troubleshooting Log** yang disesuaikan khusus dengan masalah nyata yang kalian hadapi (*Permission Denied*, *Conflict*, dan *Merging*):
 
 **1. Error / Masalah: Permission denied (publickey) / Access Denied saat Git Push**
 
