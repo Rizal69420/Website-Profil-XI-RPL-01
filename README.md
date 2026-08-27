@@ -28,5 +28,8 @@ kolaborasi Git dan GitHub.
 2. Neng Dina - Developer Profil
 3. Devit - Developer Anggota
 4. Sabrina - Developer Kontak
+HEAD
 
  Website dikembangkan menggunakan HTML
+ Website dikembangkan menggunakan HTML5.
+ main
