@@ -1,5 +1,24 @@
 # Website Profil XI RPL
 
+#jawaban pertanyaan analisis
+1 Apa fungsi git pull?
+-buat ngambil sekaligus gabungin update an kode paling baru dari github ke laptop atau pc kita
+2 Apa yang terjadi jika programmer tidak melakukan git pull?
+-kode di laptop jadi ketinggalan zaman,efeknya pas mau ngirim karya baru bisa kena error atau bentrok dengan kode teman
+3 Mengapa main harus dijaga agar tetap stabil
+-Soalnya branch main itu patokan utama kode yang udah beres dan siap dipakai.
+ Kalau main-nya eror, satu tim bakal repot dan aplikasinya jadi gak bisa jalan
+
+## Jawaban Pertanyaan LKPD
+- Perbedaan: `git commit -m "update"` terlalu umum dan tidak jelas perubahannya. Sedangkan `git commit -m "Menambahkan halaman profil kelas"` memberikan penjelasan yang spesifik mengenai fitur yang dikerjakan.
+- Yang lebih baik: `git commit -m "Menambahkan halaman profil kelas"` jauh lebih baik karena memudahkan tim melacak riwayat perubahan kode.
+
+
+pertanyan analisis
+mengapa setiap developer tidak langsung bekerja pada main?
+ :karena jika langsung melakukan pekerjaan di main (branch)akan sangat berisiko bisa merusak sistem yang sedang berjalan.
+para developer selalu pakai branch yang terpisah agar bisa mencegah terjadinya kesalahan  seperti bug
+
 Website ini merupakan proyek pembelajaran
 kolaborasi Git dan GitHub.
 
@@ -96,7 +115,28 @@ kolaborasi Git dan GitHub.
 
 **TROUBLESHOOTING LOG (SECTION Z)**
 
+1. Error / Masalah: Permission denied (publickey) / Access Denied saat Git Push
 
+Penyebab: Akun GitHub di komputer belum diberi hak akses sebagai collaborator pada repository, atau token/kredensial login Git belum terpasang dengan benar.
+
+Solusi Berhasil: Project Manager mengundang akun GitHub anggota sebagai Collaborator di menu Settings Repository > Collaborators, anggota menerima undangan tersebut, lalu mencoba git push kembali.
+
+2. Error / Masalah: Merge Conflict pada saat penggabungan kode
+
+Penyebab: Dua anggota tim mengubah baris kode atau file yang sama di waktu bersamaan.  
+PDF
+
+Solusi Berhasil: Membuka file yang konflik, membaca penanda bentrokan (<<<<<<<, =======, >>>>>>>), berdiskusi untuk menentukan isi kode yang benar, menghapus penanda konflik secara manual, lalu melakukan git add, git commit -m "Resolusi conflict", dan git push.  
+PDF
++ 1
+
+3. Error / Masalah: Automatic merge failed / Gagal Melakukan Merging
+
+Penyebab: Git tidak bisa menggabungkan branch secara otomatis karena adanya perbedaan isi file yang berbenturan antara branch lokal dan branch main.
+
+Solusi Berhasil: Melakukan git pull origin main, menyelesaikan perselisihan kode pada file lokal secara manual, lalu membuat Pull Request baru setelah branch dipastikan sudah rapi dan sinkron.  
+PDF
++ 2
 
 ---
 
