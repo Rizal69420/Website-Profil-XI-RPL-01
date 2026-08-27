@@ -1,5 +1,11 @@
 # Website Profil XI RPL
 
+
+pertanyan analisis
+mengapa setiap developer tidak langsung bekerja pada main?
+ :karena jika langsung melakukan pekerjaan di main (branch)akan sangat berisiko bisa merusak sistem yang sedang berjalan.
+para developer selalu pakai branch yang terpisah agar bisa mencegah terjadinya kesalahan  seperti bug
+
 Website ini merupakan proyek pembelajaran
 kolaborasi Git dan GitHub.
 
