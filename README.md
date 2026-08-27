@@ -1,5 +1,8 @@
 # Website Profil XI RPL
 
+Website ini merupakan proyek pembelajaran
+kolaborasi Git dan GitHub.
+
 ## Anggota Tim
 
 1. Rizal - Project Manager
@@ -93,7 +96,26 @@
 
 **TROUBLESHOOTING LOG (SECTION Z)**
 
+Berikut adalah draf teks untuk **Troubleshooting Log** yang disesuaikan khusus dengan masalah nyata yang kalian hadapi (*Permission Denied*, *Conflict*, dan *Merging*):
 
+**1. Error / Masalah: Permission denied (publickey) / Access Denied saat Git Push**
+
+* **Penyebab:** Akun GitHub di komputer belum diberi hak akses sebagai *collaborator* pada repository, atau token/kredensial login Git belum terpasang dengan benar.
+* **Solusi Berhasil:** Project Manager mengundang akun GitHub anggota sebagai *Collaborator* di menu Settings Repository > Collaborators, anggota menerima undangan tersebut, lalu mencoba `git push` kembali.
+
+**2. Error / Masalah: Merge Conflict pada saat penggabungan kode**
+
+* **Penyebab:** Dua anggota tim mengubah baris kode atau file yang sama di waktu bersamaan.
+
+
+* **Solusi Berhasil:** Membuka file yang konflik, membaca penanda bentrokan (`<<<<<<<`, `=======`, `>>>>>>>`), berdiskusi untuk menentukan isi kode yang benar, menghapus penanda konflik secara manual, lalu melakukan `git add`, `git commit -m "Resolusi conflict"`, dan `git push`.
+
+
+
+**3. Error / Masalah: Automatic merge failed / Gagal Melakukan Merging**
+
+* **Penyebab:** Git tidak bisa menggabungkan branch secara otomatis karena adanya perbedaan isi file yang berbenturan antara branch lokal dan branch `main`.
+* **Solusi Berhasil:** Melakukan `git pull origin main`, menyelesaikan perselisihan kode pada file lokal secara manual, lalu membuat *Pull Request* baru setelah branch dipastikan sudah rapi dan sinkron.
 
 ---
 
