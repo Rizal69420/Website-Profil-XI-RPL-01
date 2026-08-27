@@ -1,0 +1,59 @@
+/* Style Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header & Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2, h3 {
+    color: #2980b9;
+}
+
+/* Style Navigasi */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* Style List Anggota */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #eef2f7;
+    margin: 8px 0;
+    padding: 12px;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
