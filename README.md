@@ -28,3 +28,4 @@ kolaborasi Git dan GitHub.
 2. Neng Dina - Developer Profil
 3. Devit - Developer Anggota
 4. Sabrina - Developer Kontak
+Website dikembangkan menggunakan HTML5.
